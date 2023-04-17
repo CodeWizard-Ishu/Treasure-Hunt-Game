@@ -1,4 +1,4 @@
-# Escape Room
+# Treasure Hunt
 Utkarsh Jaiswal
 
 
