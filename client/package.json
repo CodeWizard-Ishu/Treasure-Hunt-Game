@@ -2,7 +2,7 @@
   "name": "escape",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "https://elitmus-server-cmbf.onrender.com",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
