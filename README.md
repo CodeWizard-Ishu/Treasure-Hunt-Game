@@ -4,7 +4,7 @@ Utkarsh Jaiswal
 
 ## Deployed Site
 
-https://react-escape-room.herokuapp.com/
+https://treasure-hunt-utkarsh.netlify.app/
 
 ## Table of Contents
 * [Description](#description)
