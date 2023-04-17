@@ -15,7 +15,7 @@ https://treasure-hunt-utkarsh.netlify.app/
 
 
 ## Description
-A virtual escape room where users will have to piece together clues and riddles in order to find a key and escape before the killer gets home.  Made using the MERN Stack. 2D game played by clicking / dragging on images to find clues and figure out puzzles and riddles. App has user authentication and stores save file with progress in Mongo database.
+A virtual treasure hunt where users will have to piece together clues and riddles in order to find a key and find the map before anyone else.  Made using the MERN Stack. 2D game played by clicking / dragging on images to find clues and figure out puzzles and riddles. App has user authentication and stores save file with progress in Mongo database.
 
 ## Screenshots
 
@@ -50,3 +50,4 @@ If you would like to install on your local machine then download source code and
 * React-drag-drop-container
 * Sweet Alert 2
 * Render
+* Netlify
