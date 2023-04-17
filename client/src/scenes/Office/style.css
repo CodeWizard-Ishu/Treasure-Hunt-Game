@@ -1,0 +1,100 @@
+.page {
+    background-image: url('../../images/room.png');
+    background-size: cover;
+    height: 850px;
+    width: 1024px;
+    border: 5px ridge rgb(165, 101, 42);
+    margin: auto;
+}
+
+.desk {
+    background-image: url('../../images/desk.png');
+    background-size: 100% 100%;
+    height: 365px;
+    width: 470px;    
+}
+
+.desk:hover {
+    height: 370px;
+    width: 475px;
+}
+
+.painting {
+    background-image: url('../../images/painting.png');
+    background-size: 100% 100%;
+    height: 135px;
+    width: 120px;    
+}
+
+.painting:hover {
+    height: 140px;
+    width: 125px;  
+}
+
+.painting2 {
+    background-image: url('../../images/painting2.png');
+    background-size: 100% 100%;
+    height: 145px;
+    width: 140px;    
+}
+
+.painting3 {
+    background-image: url('../../images/painting3.png');
+    background-size: 100% 100%;
+    height: 135px;
+    width: 120px;    
+}
+
+.safeImg {
+    background-image: url('../../images/vault.png');
+    background-size: 100% 100%;
+    height: 135px;
+    width: 120px;    
+}
+
+.safeImg:hover {
+    height: 140px;
+    width: 125px;  
+}
+
+.bookshelf {
+    background-image: url('../../images/bookshelf.png');
+    background-size: 100% 100%;
+    height: 500px;
+    width: 285px;    
+    padding: 70px 20px;
+    margin: 10px;
+}
+
+.bookshelf:hover {
+    height: 505px;
+    width: 290px;  
+}
+
+.clock {
+    background-image: url('../../images/clock.png');
+    background-size: 100% 100%;
+    height: 135px;
+    width: 140px;    
+}
+
+.lamp {
+    background-image: url('../../images/lamp.png');
+    background-size: 100% 100%;
+    height: 455px;
+    width: 200px;    
+}
+
+.chair {
+    background-image: url('../../images/chair.png');
+    background-size: 100% 100%;
+    height: 325px;
+    width: 190px;    
+}
+
+.rug {
+    background-image: url('../../images/rug.png');
+    background-size: 100% 100%;
+    height: 145px;
+    width: 500px;    
+}

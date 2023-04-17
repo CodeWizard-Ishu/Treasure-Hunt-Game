@@ -1,0 +1,92 @@
+
+.safe {
+    background-image: url('../../images/vault.png');
+    background-size: cover;
+    height: 1175px;
+    width: 1024px;
+}
+.box {
+    margin: 20px;
+    padding: 20px;
+    height: 375px;
+    width: 455px;
+    left: 270px;
+    bottom: 530px;
+    background: none
+}
+
+.screen {
+    margin: 7px 20px;
+    border: 5px solid black;
+    height: 30px;
+    width: 176px;
+    background: #333;
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.numPad {
+    margin: 0 20px;
+    padding: 23px;
+    border: 5px solid black;
+    float: left;
+    background:rgb(158, 156, 156)
+}
+
+.num {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: ridge;
+    font-size: 25px;
+}
+
+.enter {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: ridge;
+    font-size: 10px;
+    background:rgb(201, 199, 199)
+}
+
+.num:hover {
+    background: rgb(255, 109, 109)
+}
+
+.enter:hover {
+    background: rgb(109, 255, 116)
+}
+
+.note {
+    float: left;
+}
+
+.postIt {
+    background-color: greenyellow;
+    font-size: 20px;
+    margin: 10px;
+    width: 135px;
+    height: 135px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.crack {
+    
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.next {
+    position: relative;
+    margin-top: 10px;
+    left: 33%;
+    font-size: 20px;
+    border: 1px solid #333;
+}

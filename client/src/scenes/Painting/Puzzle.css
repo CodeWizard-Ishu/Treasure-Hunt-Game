@@ -1,0 +1,81 @@
+
+body {
+    background-color: black;
+    display: flexbox;
+}
+
+.puzzle {
+    text-align: center;
+}
+
+.puzzle_solved-board {
+    position: relative;
+    background-size: cover;
+}
+
+.puzzle_solved-board:before {
+    content: '';
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.puzzle_solved-board,
+.puzzle_shuffled-board {
+    margin: 20px auto;
+    width: 400px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 0;
+    border: 1px solid #DDD;
+    border-width: 1px 0 0 1px;
+}
+
+.puzzle li {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 99px;
+    height: 99px;
+    border: 0px solid #DDD;
+    border-width: 0 1px 1px 0;
+}
+
+.puzzle li:empty:hover:before {
+    opacity: 1;
+}
+
+.puzzle li img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    cursor: grab;
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.puzzle li img:hover {
+    z-index: 2;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.8);
+}
+
+
+.head {
+    display: flexbox;
+}
+
+.head-components {
+    width: 100px;
+    height: 100px;
+}
+
+.toSafe {
+    margin-top: 10px;
+    left: 50%;
+    font-size: 20px;
+    border: 1px solid #333;
+}
