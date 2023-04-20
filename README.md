@@ -1,5 +1,5 @@
 # Treasure Hunt
-Utkarsh Jaiswal
+Made by - Utkarsh Jaiswal
 
 
 ## Deployed Site
